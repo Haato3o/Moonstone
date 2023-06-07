@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Memory\System\Windows\" />
+    <Folder Include="Native\Windows\" />
+    <Folder Include="Overlay\Damage\Views\" />
+    <Folder Include="UI\Presentation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Moonstone.Core\Moonstone.Core.csproj" />
+    <ProjectReference Include="..\Moonstone.Integrations\Moonstone.Integrations.csproj" />
+  </ItemGroup>
+
+</Project>
